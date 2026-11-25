@@ -23,7 +23,10 @@ Right-clicking or drilling through from a school context opens a dedicated schoo
 
 ## Dashboard Screenshots
 - **Overview Page:** `student-performance-overview.png` (*Academic Performance Overview*)
+![Summary](screenshots/student-performance-overview.png)
 - **School Detail Pages:** `gabriel-pereira-school-detail.png` and `mousinho-da-silva-school-detail.png` (filtered detail pages for each school)
+![Summary](screenshots/gabriel-pereira-school-detail.png)
+![Summary](screenshots/mousinho-da-silva-school-detail.png)
 
 ## Key Insights Found
 - **School Differences:** Gabriel Pereira has a higher average final grade (`12.58`) than Mousinho da Silveira (`10.65`).
