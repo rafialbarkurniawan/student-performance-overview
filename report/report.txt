@@ -1,0 +1,73 @@
+================================================================================
+STUDENT PERFORMANCE DASHBOARD ANALYSIS REPORT (PORTUGAL, 2008)
+================================================================================
+
+Headline Metrics (Academic Performance Overview):
+- Student Records: 649
+- Average Final Grade: 11.91
+- Average Absences: 3.66
+- Average First Period Grade: 11.40
+
+1. Average Final Grade Across Schools
+   - Question: Does the average final grade differ across schools?
+   - Findings: Yes. On the overview page, Gabriel Pereira shows a higher
+     average final grade than Mousinho da Silveira. In the school summary
+     table and drill-through detail pages, Gabriel Pereira (423 records) has
+     an average final grade of 12.58, whereas Mousinho da Silveira (226 records)
+     has an average final grade of 10.65 (a difference of 1.93 points).
+
+2. Final Grade Patterns by Study Time Category
+   - Question: How do final grade patterns behave across study time categories?
+   - Findings: Across the overview and both school detail views, average final
+     grades generally follow a downward pattern as weekly study time decreases:
+     - "5 to 10 hours" and "More than 10 hours" sit at the highest levels and
+       are closely matched (with "5 to 10 hours" slightly ahead or virtually
+       tied with "More than 10 hours").
+     - "2 to 5 hours" sits lower than the two higher study-time groups.
+     - "Less than 2 hours" records the lowest average final grade across the
+       categories shown.
+
+3. Relationship Between Previous Class Failures and Final Grade Differences
+   - Question: Are prior class failure records associated with differences in
+     final grades?
+   - Findings: Yes, higher numbers of previous failures correspond to lower
+     average final grades across the views. In Gabriel Pereira's detail view,
+     "No Previous Failure" is near ~13, "1 Previous Failure" is around ~10,
+     "2 Previous Failures" is around ~9, and "3 or More Failures" is around
+     ~8.6. In Mousinho da Silveira's detail view, "No Previous Failure" is
+     around ~11.5, while the remaining failure categories drop into the ~7–8.5
+     range (note that bar ordering in the failure chart differs slightly across
+     views, so check labels carefully).
+
+4. Variation in Absences Across Schools
+   - Question: Is there variation in absences across schools?
+   - Findings: Yes. Overall average absences are 3.66 across 649 records.
+     Gabriel Pereira has a higher average absence count (4.22 on its detail
+     page; ~4.2 in the overview table) compared to Mousinho da Silveira (2.62
+     on its detail page; ~2.6 in the overview table).
+
+5. Value of Drill-Through for Context Behind Summary Figures
+   - Question: Does drill-through help users understand the context behind
+     summary figures?
+   - Findings: Yes. While the overview page aggregates both schools together
+     (e.g., 649 records, 11.91 average final grade, and 3.66 average absences),
+     drilling through to each school's detail page isolates that school's record
+     count, average final grade, average absences, failure-category breakdown,
+     and study-time breakdown—clarifying how each school contributes to the
+     overall averages.
+
+--------------------------------------------------------------------------------
+KEY ANALYTICAL LIMITATIONS & CAVEATS
+--------------------------------------------------------------------------------
+- Geographic scope: Data comes from two schools in Portugal and cannot be
+  generalized to the entire student population.
+- Data collection method: Data was collected through school records and
+  questionnaires rather than a real-time educational monitoring system.
+- No unique student ID: Unique student IDs are not available; row counts must
+  not be claimed as verified unique individuals.
+- Correlation vs. causation: Associations among study time, absences, class
+  failures, and grades do not prove cause and effect.
+- Grade period correlation (G1, G2, G3): G3 is the final grade, whereas G1 and
+  G2 are earlier-period grades. UCI specifically notes a strong correlation among
+  them; do not treat G1 and G2 as independent evidence that other factors caused
+  changes in G3.
